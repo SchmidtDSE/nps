@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Aerial Information Systems</origin>
+        <origin>Joshua Tree National Park</origin>
+        <origin>California Department of Fish and Game</origin>
+        <origin>California Native Plant Society</origin>
+        <origin>USGS/CSS/Core Science Analytics and Synthesis</origin>
+        <pubdate>20090722</pubdate>
+        <title>Joshua Tree National Park Vegetation Inventory Project - Field Plot, Accuracy Assessment, Rapid Assessment Points and Quick Plot</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://science.nature.nps.gov/im/inventory/veg/products.cfm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Since the initial vegetation layer created by Aerial Information Systems (AIS) for Joshua Tree National Park (JOTR) in the late 1990's, an accuracy assessment (AA) was conducted during 2007 and 2008, in addition to a rapid assessment (RA) during 2009. The quickplots was also done in 2000 by AIS. Data collected through the AA and RA not only gauged the accuracy of the AIS's aerial photo interpretation but also the initial in-field vegetation key written by JOTR. The AA and RA data was further used in validating changes to both the vegetation layer's attribute information and polygon geometry.
+This feature class contains spatial information and associated data for all rapid assessment efforts throughout the life of the project (including inital AIS efforts), the quickplots done by AIS, and the accuracy assessment plots that were completed by JOTR staff in 2007-2008.</abstract>
+      <purpose>Plots points were collected to characterize the vegetation communities, while the accuracy assessment and rapid assessment were collected to aid completion of vegetation mapping in Joshua Tree National Park. The quickplots were collected to describe where only the dominant and most common species.</purpose>
+      <supplinf>Data were reformatted to match Plots V3.2 and shapefile was imported into a geodatabase by the USGS/CSS/Core Science Analytics and Synthesis.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1996</begdate>
+          <enddate>200907</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <descgeog>Joshua Tree National Park</descgeog>
+      <bounding>
+        <westbc>-116.462337</westbc>
+        <eastbc>-115.257704</eastbc>
+        <northbc>34.121593</northbc>
+        <southbc>33.666708</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation</themekey>
+        <themekey>Vegetation Map</themekey>
+        <themekey>Aerial Information Systems</themekey>
+        <themekey>National Park</themekey>
+        <themekey>Field Plots</themekey>
+        <themekey>Accuracy Assessment</themekey>
+        <themekey>Rapid Assessment</themekey>
+        <themekey>Quickplots</themekey>
+        <themekey>Ground Data</themekey>
+        <themekey>Land Cover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Joshua Tree National Park</placekey>
+        <placekey>Mojave Desert</placekey>
+        <placekey>Colorado Desert</placekey>
+        <placekey>California</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Standardized National Vegetation Classification System</taxonkey>
+        <taxonkey>vegetation classification</taxonkey>
+        <taxonkey>alliance</taxonkey>
+        <taxonkey>community association</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None.</accconst>
+    <useconst>Please acknowledge the originators in products derived from these data. Any person using the information presented here should fully understand the data collection and compilation process before beginning their analysis/use.  The burden of determining fitness for use lies with the user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Joshua Tree National Park</cntorg>
+          <cntper>Sean Murphy</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>74485 National Park Dr</address>
+          <city>Twentynine Palms</city>
+          <state>California</state>
+          <postal>92277</postal>
+          <country>U.S.A</country>
+        </cntaddr>
+        <cntvoice>760-367-5566</cntvoice>
+        <cntfax>760-367-5588</cntfax>
+        <cntemail>sean_p_murphy@nps.gov</cntemail>
+        <hours>M-Th 8:00 - 5:00 Pacific Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>JOTR, Aerial Information Systems, Inc., California Department of Fish and Game, and California Native Plant Society.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy is only as good as the GPS Receiver used.</attraccr>
+    </attracc>
+    <logic>All point features were checked for uniqueness and for correct and complete attributing.</logic>
+    <complete>All field plots and quickplots collected in 2000 and all AA and RA points required for the accuracy assessment at Joshua Tree National Park are included in this coverage.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>GPS accuracy varies for each plot. Error values were recorded on the AA RA plot form.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aerial Information Systems</origin>
+            <pubdate>Unknown</pubdate>
+            <title>JOTR Vegetation Releve Plots</title>
+            <geoform>Ground Condition</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1996</begdate>
+              <enddate>2005</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>JOTR Vegetation Releve Plots</srccitea>
+        <srccontr>National Park Service, Aerial Information Systems and California Department of Fish and Game</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aerial Information Systems</origin>
+            <pubdate>Unknown</pubdate>
+            <title>JOTR Vegetation Quick Plots</title>
+            <geoform>Ground Condition</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>JOTR Vegetation Quick Plots</srccitea>
+        <srccontr>Aerial Information Systems</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joshua Tree National Park</origin>
+            <pubdate>Unknown</pubdate>
+            <title>JOTR Vegetation Accuracy Assessment Sites</title>
+            <geoform>Ground Condition</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>Unknown</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2008</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>JOTR Vegetation Accuracy Assessment Sites</srccitea>
+        <srccontr>JOTR, California Native Plant Society</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>California Department of Fish and Game</origin>
+            <pubdate>Unknown</pubdate>
+            <title>JOTR Vegetation Rapid Assessment Assessment Sites</title>
+            <geoform>Ground Condition</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>Unknown</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>JOTR Vegetation Rapid Assessment Sites</srccitea>
+        <srccontr>JOTR, California Department of Fish and Game and California Native Plant Society</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>A preliminary classification for the mapping area was developed using the existing California vegetation classification (Sawyer and Keeler–Wolf 1995) in conjunction with the local knowledge of vegetation ecologists at the park that went beyond the recent summary of California's vegetation. The classification was refined to comply with the National Vegetation Classification standards. The working preliminary classification was used to prioritize plot collection and identify preliminary mapping units.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Several overlapping projects were being conducted simultaneously at JOTR during the timeframe of this project, each of which contributed to the overall knowledge of the vegetation patterns in the park.  These included three (Watt, Long, and MDEI) separate sets collected specifically for vegetation, using somewhat different methods.
+Watt Data: In 1996, 108 plots collected, each 100 square meters, were sampled for density, cover, species composition and environmental variables. The Original mapping was done using an on-screen photo interpretation and digitizing method. The plots were chosen using a random, stratified approach from a predetermined grid system throughout the Malapai Hill 7.5-minute topographic quadrangle.  This quadrangle was selected as a pilot area because it represented many of the vegetation and topographic features of the park and had the advantage of being relatively accessible by roads.  A quantitative classification was developed using this data and was analyzed by the NatureServe regional ecologist Rex Crawford in 1997. The resulting classification and raw plot data were used in this final report as ancillary data to confirm and validate vegetation sampling.  However, this data was not taken verbatim as grounds for independently describing vegetation associations.
+Long Data: In 1997, 74 plots collected, using a 2,100 square meters in Anza-Borrego Desert State Park. The plots were sampled using the protocol described in Keeler-Wolf et al. (1998).  This data was analyzed, along with the remainder of the data in 2001, and is among the plots that form the basis of the defined vegetation types.
+MDEI Data: In 1997, 74 relevé collected, using a 1,000 square meters plot size. This protocol utilized a gradient-directed sampling technique that selected representative combinations of biophysical units throughout the Mojave Desert (Franklin et al. 2002). This data was analyzed, along with the remainder of the data in 2001, and is among the plots that form the basis of the defined vegetation types.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In 1997, 20 plots from a much larger project referred to as the Northeast Colorado Desert vegetation survey completed by California Native Plant Society and California Department of Fish and Game.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Between 2000-2001, AIS collected 300 plots were sampled using the stratified random sampling design, using California Native Plant Society (CNPS) Relevé protocol (CNPS 2004). These plots formed the basis of the park classification and were used to describe the majority of the vegetation types. In summary a total, 576 plots were either directly analyzed or summarized to develop the classification for this project. These included 300 JOTR, 74 Long, 74 MDEI, 108 Watts and 20 NECO samples.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In 2000, AIS collected 24 quick plots were sampled to describe where only the dominant and most common species with their abundance to ensure proper identification of the type, and enough site information to provisionally rank the quality of the occurrence.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>1,313 accuracy assessments were conducted in 2007 and 2008. In order to assure that observations can be unambiguously assigned to a map class label, the edge of the circular plot should be far enough away from the polygon edge to eliminate the chance of overlapping the observation plot with a neighboring polygon. The radius of a 0.5 hectare circular plot is approximately 40 meters, whereas the radius of a 0.25 hectare circular plot is approximately 30 meters. To accommodate the placement of the entire observation area of the AA plot within the assigned map class, we used ArcView ® 3.2 to exclude areas within each polygon near boundaries with other map classes. Using the appropriate inference area for each map class, we located individual accuracy assessment center plot positions by allocating the specified number of observation points for each map class to the modified union theme derived from the operations above. This was done using the “Select Random Features” function in the National Park Service Alaskapak tools package for ArcView® 3.2 (NPS 2002). Field observers navigated to the AA point and collect information within a 40 meter or 30 meter radius, depending on the size of the AA plot. Once the observer was familiar with the observational area inside the AA plot, they consulted the JOTR field key and recorded their first call for the vegetation type that most closely represented their observations. If necessary, a second call was recorded when more than one vegetation type represented what they observed. The AA results spurred additional field relevés and a reworking of the map and classification.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In 2009, 111 Rapid assessment plots executed for 14 problematic vegetation associations to complement accuracy assessment data. The goal was to complete a minimum of 10 Rapid Assessments (RA) within the map classes lacking good ecological information (i.e. problematic vegetation types), with a focus on visiting polygons that were not sampled during the AA process, whereas for each of the problematic polygons only one RA was needed. The RA plots are meant to sample the entire stand, or polygon, and the observer chooses a representative spot within the polygon to record their observations. This is contrast to the AA protocols. CDFG were hired to incorporate new data into analysis and make recommendations for updating the classification and map.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data were reformatted using Plots V3.2, and then the shapefiles and the data was imported into a geodatabase by the USGS/CSS/Core Science Analytics and Synthesis.</procdesc>
+        <procdate>201407</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <procdate>201407</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>2020</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>11</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-117.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>JOTR_VegPoints</enttypl>
+        <enttypd>Feature class attribute table</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot_Code</attrlabl>
+        <attrdef>Unique identifier for this Accuracy Assessment, Rapid Assessment or Plot point</attrdef>
+        <attrdefs>AIS, NPS, CDFG</attrdefs>
+        <attrdomv>
+          <udom>Unique plot number.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pnts_Type</attrlabl>
+        <attrdef>Point type (accuracy assessment point, rapid assessment, plot point and quick plot)</attrdef>
+        <attrdefs>Plots V3.2</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Accuracy Assessment Point</edomv>
+            <edomvd>AA Point</edomvd>
+            <edomvds>Plots V3.2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Rapid Accuracy Assessment Point</edomv>
+            <edomvd>Rapid Assessment</edomvd>
+            <edomvds>Plots V3.2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Plot Point</edomv>
+            <edomvd>Plot Point</edomvd>
+            <edomvds>Plots V3.2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Quick_Plot</edomv>
+            <edomvd>Quick Plot</edomvd>
+            <edomvds>Plots V3.2</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_Coord</attrlabl>
+        <attrdef>X Coordinate (UTM Easting)</attrdef>
+        <attrdefs>National Park Service and Aerial Information Systems</attrdefs>
+        <attrdomv>
+          <udom>Easting coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_Coord</attrlabl>
+        <attrdef>Y Coordinate (UTM Northing)</attrdef>
+        <attrdefs>National Park Service and Aerial Information Systems</attrdefs>
+        <attrdomv>
+          <udom>Northing coordinate.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rc_VegPoints_tAA_tPlots</enttypl>
+        <enttypd>Defines relationship between Veg points and basic AA/plot attributes</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Park Service/Inventory and Monitoring Division/Vegetation Inventory Program</cntorg>
+          <cntper>Vegetation Inventory Program Manager</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>NPS Vegetation Inventory Program</address>
+          <address>Inventory and Monitoring Division</address>
+          <address>1201 Oakridge Drive Ste. 150</address>
+          <city>Fort Collins</city>
+          <state>Colorado</state>
+          <postal>80525</postal>
+        </cntaddr>
+        <cntvoice>(970) 267-7201</cntvoice>
+        <cntemail>irma@nps.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from a National Park Service server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://science.nature.nps.gov/im/inventory/veg/products.cfm</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130925</metd>
+    <metrd>20140730</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Park Service/Inventory and Monitoring Division/Vegetation Inventory Program</cntorg>
+          <cntper>Vegetation Inventory Program Manager</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>NPS Vegetation Inventory Program</address>
+          <address>Inventory and Monitoring Division</address>
+          <address>1201 Oakridge Drive Ste. 150</address>
+          <city>Fort Collins</city>
+          <state>Colorado</state>
+          <postal>80525</postal>
+        </cntaddr>
+        <cntvoice>(970) 267-7201</cntvoice>
+        <cntemail>irma@nps.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
