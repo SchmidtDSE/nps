@@ -11,5 +11,5 @@ tasks:
 vscode:
   extensions:
     - ms-python.python
-    - ms-vscode.cpptools
     - dbaeumer.vscode-eslint
+    - ms-toolsai.jupyter
